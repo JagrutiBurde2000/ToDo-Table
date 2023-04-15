@@ -1,0 +1,46 @@
+table,tr,td,th{
+    margin-top: 20px;
+    border:2px solid black;
+    border-collapse: collapse;
+    width:500px;
+    height:36px;
+    font-size: 24px;
+    text-align: center;
+}
+.root{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+b{
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap:10px;
+}
+.input-container>input{
+    width:300px;
+    height: 40px;
+}
+button{
+    width:100px;
+    height: 40px;
+    color:red;
+    font-size: 16px;
+   border-radius:15px;
+    background-color: rgb(114, 242, 16);
+}
+
+input{
+    font-size: 24px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
